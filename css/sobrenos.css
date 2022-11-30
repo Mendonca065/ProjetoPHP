@@ -1,0 +1,58 @@
+main {
+	margin: 70px auto;
+	width: 60vw;
+}
+
+main h1 {
+	font-size: 50px;
+	padding: 30px 0 8px;
+	position: relative;
+}
+
+main h1::before {
+	content: '';
+	position: absolute;
+	left: 7%;
+	bottom: 20px;
+	width: 150px;
+	height: 14px;
+	transform: skew(-12deg) translateX(-50%);
+	background: rgba(87, 255, 87, 0.644);
+	z-index: -1;
+}
+
+main p {
+	font-size: 22px;
+	margin: 2vw 0 3vw 5vw;
+}
+
+main a {
+	color: rgb(75, 221, 75);
+}
+
+main a:hover {
+	color: rgba(87, 255, 87);
+}
+
+main button {
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 50px;
+	border: 1px solid transparent;
+	font-weight: 700;
+	text-align: center;
+	padding: 17px 48px;
+	color: #fff;
+	background-color: #19b44f;
+}
+
+.button-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main button:hover {
+	background-color: #1bbd53;
+}

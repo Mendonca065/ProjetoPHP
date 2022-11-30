@@ -1,0 +1,89 @@
+main {
+    display: grid;
+    place-items: center;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+.content {
+    padding: 40px;
+    background-color: #241C3B;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: rgb(87, 255, 87, 0.4) 5px 5px, rgb(87, 255, 87, 0.3) 10px 10px, rgb(87, 255, 87, 0.2) 15px 15px, rgb(87, 255, 87, 0.1) 20px 20px, rgb(87, 255, 87, 0.05) 25px 25px;
+}
+
+.content > div {
+    margin-bottom: 20px;
+}
+
+.content p, input, textarea {
+    font-size: 18px;
+}
+
+.content input, textarea {
+    background-color: #1a1329;
+    padding: 5px;
+}
+
+.content .email, .nome {
+    width: 330px;
+}
+
+.content .sexo {
+    width: 150px;
+}
+
+.content .altura, .idade {
+    width: 80px;
+}
+
+.content
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009844;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table tbody tr {
+    background-color: #131313;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #383838;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #202020;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009844;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

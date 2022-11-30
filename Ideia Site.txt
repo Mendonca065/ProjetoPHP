@@ -1,0 +1,22 @@
+pagina inicial: Quem Somos
+	na pagina inicial teria um texto basico sobre a ideia do projeto.
+
+pagina 1: treino ABC iniciante
+	planinha de treino com os links do videos, a ideia seria tipo
+		TREINO A:
+			PEITO E OMBRO
+			SUPINO RETO BARRA
+				3 series + (comentarios)
+				video
+			Sup. inclinado
+				4 series + (comentarios)
+				video
+
+pagina 2 se repete a pagina 1, porem com mais conteudo, sendo ela ABCD intermediario masculino
+
+pagina 3 repte a um tambem, mas o nome é ABCDE avançado masculino
+
+solicite seu treino personalizado
+	formulario bestinha com nome email sexo idade altura, peso e comentarios
+
+cabousse :)

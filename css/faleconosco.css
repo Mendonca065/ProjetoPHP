@@ -1,0 +1,85 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.form {
+    background-color: #241C3B;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgb(87, 255, 87, 0.4) 5px 5px, rgb(87, 255, 87, 0.3) 10px 10px, rgb(87, 255, 87, 0.2) 15px 15px, rgb(87, 255, 87, 0.1) 20px 20px, rgb(87, 255, 87, 0.05) 25px 25px;
+}   
+
+.form .input {
+    margin: 0 0 10px 40px;
+}
+
+.form .input p {
+    color: rgb(255, 255, 255);
+}
+
+.input input {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1a1329;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.idade input {
+    width: 60px;
+}
+
+select {
+    background-color: #1a1329;
+}
+
+select option {
+    background-color: #1a1329;  
+}
+
+textarea {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #1a1329;
+}
+
+.btn-submit {
+    display: inline-block;
+    outline: 0;
+    appearance: none;
+    padding: 0px 12px;
+    margin-left: 40px;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(9, 128, 76);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    transition: all 150ms ease-in-out 0s;
+}
+
+.btn-submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 97, 73);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+}
+
+.login {
+    width: 30vw;
+}
+
+.erro {
+    color: crimson;
+}

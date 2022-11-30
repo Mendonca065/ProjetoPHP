@@ -1,0 +1,25 @@
+main {
+    margin: 70px auto;
+    width: 60vw;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+.treinos {
+    padding: 40px;
+}
+
+.treino {
+    margin-bottom: 25px;
+}
+
+.treino h2 {
+    font-size: 27px;
+}
+
+.treino p {
+    margin-left: 25px;
+    color: rgb(184, 184, 184);
+}
